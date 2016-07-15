@@ -1,5 +1,16 @@
+html {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
 body {
 	background-color: LightGray;
+	font family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #838994;
+	letter spacing: 0.03em;
 }
 div {
 	border: 1px solid Chocolate;
@@ -27,13 +38,43 @@ display: inline-block;
 */
 .top-navigation {
 	background-color: #fff;
+	width: auto;
 }
-.top-navigation > .content {
-width: 60rem;
-height: 4.375rem;
-margin: 0 auto;
+.content {
+	/*background-color: #fff;*/
+	width: 60rem;
+	height: 4.375rem;
+	margin: 0 auto;
+	padding: 0em 1em;
 }
-.top-navigation > .content > img {
-margin-left: 1rem;
-height: 4.5rem;
+.top-navigation .content > img {
+	height: 4.5rem;
+	/*margin-left: 1em;*/
+}
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+.links {
+	float: right;
+}
+.links > li {
+	display: inline-block;
+	margin-left: 0.5em;
+	margin-top: 0.7em;
+}
+.top-navigation .links li:hover {
+	cursor:pointer;
+	color: #333333;
+}
+.introduction {
+	background-image: url('/images/first-background copy.jpg')
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938em;
+}
+.introduction > .content {
+	text-align: center;
+	font-size: 1.5em;
 }
