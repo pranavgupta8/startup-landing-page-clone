@@ -78,3 +78,14 @@ display: inline-block;
 	text-align: center;
 	font-size: 1.5em;
 }
+button {
+	margin: 0 auto;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 0.25em;
+	padding: 1rem 1.5rem;
+}
+button:hover {
+	cursor: pointer;
+	color: ;
+}
