@@ -7,7 +7,7 @@ html {
 }
 body {
 	background-color: LightGray;
-	/*background-color: #fff;*/ 
+	/*background-color: #fff;*/
 	font family: 'Roboto', sans-serif;
 	font-size: 1em;
 	color: #838994;
@@ -39,17 +39,17 @@ display: inline-block;
 */
 .top-navigation {
 	background-color: #fff;
-	width: auto;
-	position: fixed;
-	width: 100%;
-	z-index: 9999;
+	min-width: 60rem;
+	/*z-index: 9999;*/
 }
 .content {
 	/*background-color: #fff;*/
 	width: 60rem;
-	height: 4.375rem;
 	margin: 0 auto;
 	padding: 0em 1em;
+}
+.top-navigation .content {
+	height: 4.375rem;
 }
 .top-navigation .content > img {
 	height: 4.5rem;
@@ -96,10 +96,12 @@ button:hover {
 	cursor: pointer;
 	background-color: #e69052;
 }
+.cases {
+	background-color: #fff;
+}
 .cases .devices {
-	width: 33.33333333%;
+	width: 10rem;
 	display: inline-block;
 	border: 1px solid black;
-	box-sizing: border-box;
 	height: 4em;
 }
