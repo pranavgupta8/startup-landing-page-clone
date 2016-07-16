@@ -39,9 +39,11 @@ display: inline-block;
 .top-navigation {
 	background-color: #fff;
 	width: auto;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .content {
-	/*background-color: #fff;*/
 	width: 60rem;
 	height: 4.375rem;
 	margin: 0 auto;
@@ -74,7 +76,7 @@ display: inline-block;
 	background-size: cover;
 	height: 45.938em;
 }
-.introduction > .content, .features > .content {
+.introduction > .content, .cases > .content {
 	text-align: center;
 	font-size: 1.5em;
 }
@@ -91,12 +93,10 @@ button:hover {
 	cursor: pointer;
 	background-color: #e69052;
 }
-.features > div {
-	display: block;
-	align: center;
-	margin: 1.5em 0.5em;
+.cases .devices {
+	width: 33.33333333%;
+	display: inline-block;
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
 }
-.features > .content > img {
-	margin: 0em 1.7em;
-}
-.features > 
