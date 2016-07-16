@@ -7,6 +7,7 @@ html {
 }
 body {
 	background-color: LightGray;
+	/*background-color: #fff;*/ 
 	font family: 'Roboto', sans-serif;
 	font-size: 1em;
 	color: #838994;
@@ -44,6 +45,7 @@ display: inline-block;
 	z-index: 9999;
 }
 .content {
+	/*background-color: #fff;*/
 	width: 60rem;
 	height: 4.375rem;
 	margin: 0 auto;
@@ -77,7 +79,7 @@ display: inline-block;
 	background-size: cover;
 	height: 45.938em;
 }
-.introduction > .content, .cases > .content {
+.introduction > .content, .cases > .content, .footer > .content {
 	text-align: center;
 	font-size: 1.5em;
 }
