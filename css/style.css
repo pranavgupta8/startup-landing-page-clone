@@ -58,7 +58,7 @@ display: inline-block;
 .links {
 	float: right;
 }
-.links > li {
+.links > li, .features > .content > h4{
 	display: inline-block;
 	margin-left: 0.5em;
 	margin-top: 0.7em;
@@ -68,13 +68,13 @@ display: inline-block;
 	color: #333333;
 }
 .introduction {
-	background-image: url('/images/first-background copy.jpg')
+	background-image: url('../images/first-background copy.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938em;
 }
-.introduction > .content {
+.introduction > .content, .features > .content {
 	text-align: center;
 	font-size: 1.5em;
 }
@@ -82,10 +82,21 @@ button {
 	margin: 0 auto;
 	text-shadow: none;
 	border-style: none;
+	background-color: chocolate;
+	color: white;
 	border-radius: 0.25em;
 	padding: 1rem 1.5rem;
 }
 button:hover {
 	cursor: pointer;
-	color: ;
+	background-color: #e69052;
 }
+.features > div {
+	display: block;
+	align: center;
+	margin: 1.5em 0.5em;
+}
+.features > .content > img {
+	margin: 0em 1.7em;
+}
+.features > 
